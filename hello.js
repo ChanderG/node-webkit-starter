@@ -27,7 +27,11 @@ sayhi = function() {
   console.log("Hello Rory Williams");
    
   var fs = require('fs');
+  //currently relative path does not work
   fs.writeFileSync("hello.txt","I know! Dinosaurs on a Spaceship"); 
+
+  //here is why - and it makes sense 
+  console.log(process.cwd());
   
   /* 
   var Promise = require('bluebird');
@@ -38,5 +42,3 @@ sayhi = function() {
   });
   */
 }
-
-
