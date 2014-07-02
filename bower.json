@@ -1,0 +1,9 @@
+{
+  "name": "my-app",
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  },
+  "resolutions": {
+    "bootstrap": "~3.2.0"
+  }
+}

@@ -1,5 +1,8 @@
 *.nw
+
 node_modules/
 node-webkit/
+bower_components/
+
 run.sh
 
