@@ -1,0 +1,5 @@
+*.nw
+node_modules/
+node-webkit/
+run.sh
+

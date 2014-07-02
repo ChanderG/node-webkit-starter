@@ -1,0 +1,14 @@
+{
+  "name": "node-app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 800,
+    "height": 600
+  },
+  "dependencies": {
+    "bluebird": "~2.1.3"
+  }
+}
