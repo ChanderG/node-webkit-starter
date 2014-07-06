@@ -21,6 +21,10 @@ fs.readFileAsync(hi_file,'utf8').then(function(data){
 });
 */
 
+exports.hello = function() {
+  return "Hello";
+}
+
 
 sayhi = function() {
   alert("Hello Stonehenge!!");
