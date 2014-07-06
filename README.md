@@ -1,7 +1,7 @@
 #Node-Webkit template(WIP)
 
 ###What?
-A simple template to work with Node-Webkit. Includes Bootstrap.
+A simple template to work with Node-Webkit. Includes Bootstrap, Bootswatch theme and QUnit for testing.
 
 
 ###Build Instructions
