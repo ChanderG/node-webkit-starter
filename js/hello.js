@@ -21,12 +21,8 @@ fs.readFileAsync(hi_file,'utf8').then(function(data){
 });
 */
 
-exports.hello = function() {
-  return "Hello";
-}
 
-
-sayhi = function() {
+module.exports.sayhi = function() {
   alert("Hello Stonehenge!!");
   console.log("Hello Rory Williams");
    
@@ -45,4 +41,8 @@ sayhi = function() {
     console.log(data);
   });
   */
+}
+
+exports.hello = function() {
+  return "Hello";
 }
